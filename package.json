@@ -1,0 +1,36 @@
+{
+  "name": "mesh-winding-number",
+  "version": "1.0.0",
+  "description": "Compute winding number for a mesh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataber/mesh-winding-number.git"
+  },
+  "keywords": [
+    "mesh",
+    "winding",
+    "number",
+    "topology",
+    "simplicial",
+    "complex",
+    "topological",
+    "invariant"
+  ],
+  "author": "Andrew Taber <andrew.e.taber@gmail.com> (http://taber.space)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ataber/mesh-winding-number/issues"
+  },
+  "homepage": "https://github.com/ataber/mesh-winding-number#readme",
+  "dependencies": {
+    "gl-mat3": "^1.0.0",
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "bunny": "^1.0.1"
+  }
+}
